@@ -1,0 +1,25 @@
+*, *::after {
+  box-sizing: border-box; /*-- sets box math for all elements --*/
+}
+body {
+  width: 85%;  /*-- sets width of whole body to 85% --*/
+  margin: 0 auto;  /*-- centers the whole body --*/
+  font-family: 'Ariel', sans-serif;  /*-- sets font and fallback --*/
+}
+figure {
+  margin: 0 0 1em 0;  /*-- adds bottom margin to figures --*/
+  padding: 0;  /*-- removes padding from figures --*/
+}
+img {
+  width: 100%;  /*-- makes all images responsive --*/
+}
+article {
+  width: 70%;  /*-- sets the container width to 70% of body --*/
+  float: left;  /*-- floats the container left --*/
+  padding-right: 1em;  /*-- creates space to the container's right --*/
+}
+footer {
+  margin-top: 4em;  /*-- adds big space above the footer --*/
+  border: 1px solid #333;  /*-- adds border around footer --*/
+  text-align: center;  /*-- centers text in the footer --*/
+}

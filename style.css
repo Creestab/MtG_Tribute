@@ -23,3 +23,15 @@ footer {
   border: 1px solid #333;  /*-- adds border around footer --*/
   text-align: center;  /*-- centers text in the footer --*/
 }
+
+.image {
+}
+.link {
+  color:blue;  /*-- sets all link colors --*/
+}
+.text {
+}
+.note {
+  font-size: 75%;
+  font-style: italic;
+}

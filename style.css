@@ -24,7 +24,13 @@ footer {
   text-align: center;  /*-- centers text in the footer --*/
 }
 
-.image {
+.imageLarge {
+  width: 100%;
+  height: auto;
+}
+.imageSmall {
+  width: 25%;
+  height: auto;
 }
 .link {
   color:blue;  /*-- sets all link colors --*/
@@ -34,4 +40,7 @@ footer {
 .note {
   font-size: 75%;
   font-style: italic;
+}
+.centered {
+  text-align: center;
 }

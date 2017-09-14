@@ -30,6 +30,7 @@ footer {
   border: 2px solid orange;  /*-- adds border around footer --*/
   text-align: center;  /*-- centers text in the footer --*/
   background-color: lightgrey;
+  height: 55px;
 }
 
 .imageLarge {
@@ -39,11 +40,13 @@ footer {
 .imageSmall {
   width: 25%;
   height: auto;
+  float: left;
 }
 .link {
   color:blue;  /*-- sets all link colors --*/
 }
 .text {
+  float: left;
 }
 .note {
   font-size: 75%;

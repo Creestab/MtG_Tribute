@@ -20,8 +20,6 @@ img {
   background-color: lightgrey;
 }
 article {
-  width: 70%;  /*-- sets the container width to 70% of body --*/
-  float: left;  /*-- floats the container left --*/
   padding-right: 1em;  /*-- creates space to the container's right --*/
 }
 footer {
@@ -33,14 +31,20 @@ footer {
   height: 55px;
 }
 
-.imageLarge {
+.container {
+  display: inline-block;
+}
+.inner {
+  float: left;
+  width: 50%;
+}
+.image {
   width: 100%;
   height: auto;
 }
-.imageSmall {
-  width: 25%;
-  height: auto;
-  float: left;
+.container::after {
+  clear: both;
+  display: table;
 }
 .link {
   color:blue;  /*-- sets all link colors --*/
